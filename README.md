@@ -21,3 +21,6 @@ dns2="223.6.6.6"
 ```bash
 sudo ./static-ip.sh
 ```
+
+## License
+* [MIT License](LICENSE)
