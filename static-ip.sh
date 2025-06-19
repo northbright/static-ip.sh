@@ -24,7 +24,7 @@ touch /etc/cloud/cloud-init.disabled
 # Remove netplan configure file created by cloud-init
 CLOUD_INIT_CONFIG_FILE="/etc/netplan/50-cloud-init.yaml"
 if [[ -f $CLOUD_INIT_CONFIG_FILE ]]; then
-  rm CLOUD_INIT_CONFIG_FILE
+  rm $CLOUD_INIT_CONFIG_FILE
 fi
 
 # Create a custom network configure file.
